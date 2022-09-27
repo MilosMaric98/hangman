@@ -1,0 +1,25 @@
+.letterClass {
+  width: 2rem;
+  height: 2rem;
+}
+.disabled-letter {
+  pointer-events: none;
+  background-color: gray;
+}
+.game-end {
+  position: absolute;
+  background-color: dodgerblue;
+  color: white;
+  padding: 200px;
+  top: 150px;
+  left: 200px;
+}
+.disabled {
+  display: none;
+}
+.enable {
+  display: inline-block;
+}
+.line {
+  padding: 10px;
+}
